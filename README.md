@@ -9,6 +9,7 @@
 - Generating Very Detailed Allure Reports with All Scenario Steps And Screenshots for Passed/Hard-Assertion-Failed/Soft-Assertion-Failed Tests and for API Requests and Responses
 - Perform Test Execution Locally and Remotely on Cloud Servers as Browser Stack & Sauce Labs
 - Performing Parallel Execution from CI/CD Pipeline with GitHub Actions to run 5 Parallel Tests at same time with help of Browser Stack server
+- Simulating Hybrid App and Run WebView Tests
 
 ## Application Under Test
 - https://github.com/saucelabs/sample-app-mobile/releases
@@ -77,9 +78,6 @@
 ## Installation of Appium
 ### You can Check the Installation Steps from the below link
 https://docs.google.com/document/d/e/2PACX-1vS9HAzWKhCgkF2NTPNLjWboH6JYrF4TfeztEJdaxqv-Nnxdw0ox-P_ZLxdLWvpvsrfP-nnM9IAJSU7k/pub
-
-### You can Check the Ahmed Videos for Installation Steps
-https://www.youtube.com/playlist?list=PL62It1k5a1Ulzd5aXuZTWyvdx88vQeIcv
 
 ## Installation of mysql Database
 ### Note : In Case of Local Execution and Without Sync from Database, You Don't have to Install Docker

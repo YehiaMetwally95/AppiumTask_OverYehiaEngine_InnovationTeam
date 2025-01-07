@@ -1,14 +1,13 @@
 package linearTests;
 
 import baseTest.BaseTest;
-import com.github.javafaker.App;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import yehiaEngine.assertions.CustomAssert;
 import yehiaEngine.elementActions.W3CTouchActions;
-import static yehiaEngine.driverManager.AppiumFactory.*;
+
+import static yehiaEngine.driverManager.AppiumFactory.getDriver;
 import static yehiaEngine.elementActions.W3CTouchActions.Direction.*;
 
 public class LinearTestsByW3cTouchActions extends BaseTest {

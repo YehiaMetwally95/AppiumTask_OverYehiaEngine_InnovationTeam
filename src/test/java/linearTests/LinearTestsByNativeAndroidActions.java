@@ -1,21 +1,17 @@
 package linearTests;
 
 import baseTest.BaseTest;
-import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
-import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import yehiaEngine.assertions.CustomAssert;
 import yehiaEngine.elementActions.NativeAndroidActions;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import static yehiaEngine.driverManager.AppiumFactory.getDriver;
-import static yehiaEngine.elementActions.NativeAndroidActions.LocatorType.*;
-import static yehiaEngine.elementActions.NativeAndroidActions.ScrollDirection.*;
+import static yehiaEngine.elementActions.NativeAndroidActions.LocatorType.RESOURCE_ID;
+import static yehiaEngine.elementActions.NativeAndroidActions.LocatorType.TEXT;
+import static yehiaEngine.elementActions.NativeAndroidActions.ScrollDirection.HORIZONTAL;
+import static yehiaEngine.elementActions.NativeAndroidActions.ScrollDirection.VERTICAL;
 
 public class LinearTestsByNativeAndroidActions extends BaseTest {
 
